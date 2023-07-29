@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-07-29 10:27:51 -->
+<!-- RELEASE TIME : 2023-07-29 11:28:03 -->
 <html lang="zh-cn">
 
  <head>
@@ -284,6 +284,14 @@
        <th width="5%">URL</th>
       </tr>
       <tr>
+       <td>65b36d47b5c2ecd362c84c3b901143d2</td>
+       <td>CVE-2023-36542</td>
+       <td>2023-07-29 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>Apache NiFi 0.0.2 through 1.22.0 include Processors and Controller Services that support HTTP URL references for retrieving drivers, which allows an authenticated and authorized user to configure a location that enables custom code execution. The resolution introduces a new Required Permission for referencing remote resources, restricting configuration of these components to privileged users. The permission prevents unprivileged users from configuring Processors and Controller Services annotated with the new Reference Remote Resources restriction. Upgrading to Apache NiFi 1.23.0 is the recommended mitigation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-36542">详情</a></td>
+      </tr>
+
+      <tr>
        <td>fbb119210a496e431299c322273a9136</td>
        <td>CVE-2023-2314</td>
        <td>2023-07-29 00:15:00 <img src="imgs/new.gif" /></td>
@@ -513,14 +521,6 @@
        <td>2023-07-28 12:15:00 <img src="imgs/new.gif" /></td>
        <td>A vulnerability was found in AO-OPC server versions mentioned above. As the directory information for the service entry is not enclosed in quotation marks, potential attackers could possibly call up another application than the AO-OPC server by starting the service. The service might be started with system user privileges which could cause a shift in user access privileges.It is unlikely to exploit the vulnerability in well maintained Windows installations since the attacker would need write access to system folders.An update is available that resolves the vulnerability found during an internal review in the product AO-OPC = 3.2.1</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-2685">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>77823d4fda5e973297e3628324be2c59</td>
-       <td>CVE-2023-3670</td>
-       <td>2023-07-28 08:15:00 <img src="imgs/new.gif" /></td>
-       <td>In CODESYS Development System 3.5.9.0 to 3.5.17.0 and CODESYS Scripting 4.0.0.0 to 4.1.0.0 unsafe directory permissions would allow an attacker with local access to the workstation to place potentially harmful and disguised scripts that could be executed by legitimate users.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-3670">详情</a></td>
       </tr>
 
      </tbody>
@@ -828,6 +828,46 @@
       </tr>
 
       <tr>
+       <td>7329f8607d0e4e4a876f47c02b042617</td>
+       <td>CNNVD-202307-2171 (CVE-2023-33743)</td>
+       <td>2023-07-27 11:27:59</td>
+       <td>TeleAdapt RoomCast TA-2400 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2171">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>5095924c7b8574a6d1f1994583a2a060</td>
+       <td>CNNVD-202307-2172 (CVE-2020-22623)</td>
+       <td>2023-07-27 11:27:57</td>
+       <td>Jinfornet Jreport 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2172">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>2e0f62918e232c26b18ab18e801d9928</td>
+       <td>CNNVD-202307-2173 (CVE-2023-33742)</td>
+       <td>2023-07-27 11:27:55</td>
+       <td>TeleAdapt RoomCast TA-2400 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2173">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>2f88052104db9049548c10e5cae2fa52</td>
+       <td>CNNVD-202307-2174 (CVE-2023-23764)</td>
+       <td>2023-07-27 11:27:54</td>
+       <td>GitHub Enterprise Server 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2174">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>6c7187f8ade1b85f774f3cf99cc2007c</td>
+       <td>CNNVD-202307-2175 (CVE-2023-36942)</td>
+       <td>2023-07-27 11:26:52</td>
+       <td>Online Fire Reporting System 安全漏洞</td>
+       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-2175">详情</a></td>
+      </tr>
+
+      <tr>
        <td>e58a6fb6d3649a2b7921e835c37eaf48</td>
        <td>CNNVD-202307-2124 (CVE-2023-31466)</td>
        <td>2023-07-26 19:28:09</td>
@@ -993,46 +1033,6 @@
        <td>2023-07-24 14:32:03</td>
        <td>Apple Safari 安全漏洞</td>
        <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1965">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>140bf0a59a17f0053019594c9922db69</td>
-       <td>CNNVD-202307-1967 (CVE-2023-26045)</td>
-       <td>2023-07-24 14:31:58</td>
-       <td>NodeBB 路径遍历漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1967">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>65debda48642b987bdc631aaa91b4152</td>
-       <td>CNNVD-202307-1970 (CVE-2023-3872)</td>
-       <td>2023-07-24 14:30:50</td>
-       <td>Campcodes Beauty Salon Management System SQL注入漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1970">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>b1810fc16cb739b96489c97cb511f5a2</td>
-       <td>CNNVD-202307-1971 (CVE-2023-22428)</td>
-       <td>2023-07-24 14:30:44</td>
-       <td>Gallagher Command Centre Server 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1971">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>dcc8fa8718a0cbae4ed8da15366ad427</td>
-       <td>CNNVD-202307-1973 (CVE-2023-3873)</td>
-       <td>2023-07-24 14:29:39</td>
-       <td>Campcodes Beauty Salon Management System SQL注入漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1973">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>972104562a4133b9bd7efa980bfc6b28</td>
-       <td>CNNVD-202307-1974 (CVE-2023-38572)</td>
-       <td>2023-07-24 11:24:44</td>
-       <td>Apple Safari 安全漏洞</td>
-       <td><a target="_blank" href="http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202307-1974">详情</a></td>
       </tr>
 
      </tbody>
