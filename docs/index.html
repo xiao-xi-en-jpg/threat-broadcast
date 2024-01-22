@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2024-01-22 19:24:47 -->
+<!-- RELEASE TIME : 2024-01-22 23:27:24 -->
 <html lang="zh-cn">
 
  <head>
@@ -364,6 +364,62 @@
       </tr>
 
       <tr>
+       <td>0fee861c7c13eac09b0b39488c46174d</td>
+       <td>CVE-2023-52354</td>
+       <td>2024-01-22 06:15:07 <img src="imgs/new.gif" /></td>
+       <td>chasquid before 1.13 allows SMTP smuggling because LF-terminated lines are accepted.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-52354">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>fe286c960b16bf098566a4fc5883bd26</td>
+       <td>CVE-2017-20189</td>
+       <td>2024-01-22 06:15:07 <img src="imgs/new.gif" /></td>
+       <td>In Clojure before 1.9.0, classes can be used to construct a serialized object that executes arbitrary code upon deserialization. This is relevant if a server deserializes untrusted objects.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2017-20189">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>4b821e7ea2bd165a43fa088c08cd7b3d</td>
+       <td>CVE-2024-22113</td>
+       <td>2024-01-22 05:15:09 <img src="imgs/new.gif" /></td>
+       <td>Open redirect vulnerability in Access analysis CGI An-Analyzer released in 2023 December 31 and earlier allows a remote unauthenticated attacker to redirect users to arbitrary websites and conduct phishing attacks via a specially crafted URL.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-22113">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>d4da4218e30cf2a855eaf2e80a5b6246</td>
+       <td>CVE-2024-21484</td>
+       <td>2024-01-22 05:15:08 <img src="imgs/new.gif" /></td>
+       <td>Versions of the package jsrsasign before 11.0.0 are vulnerable to Observable Discrepancy via the RSA PKCS1.5 or RSAOAEP decryption process. An attacker can decrypt ciphertexts by exploiting this vulnerability. Exploiting this vulnerability requires the attacker to have access to a large number of ciphertexts encrypted with the same key. Workaround This vulnerability can be mitigated by finding and replacing RSA and RSAOAEP decryption with another crypto library.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-21484">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>bee7a9f5fa89b9258d42b9849ca5870b</td>
+       <td>CVE-2023-47352</td>
+       <td>2024-01-22 05:15:08 <img src="imgs/new.gif" /></td>
+       <td>Technicolor TC8715D devices have predictable default WPA2 security passwords. An attacker who scans for SSID and BSSID values may be able to predict these passwords.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-47352">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>122b8b90474160415716ce334f628a52</td>
+       <td>CVE-2024-23771</td>
+       <td>2024-01-22 04:15:07 <img src="imgs/new.gif" /></td>
+       <td>darkhttpd before 1.15 uses strcmp (which is not constant time) to verify authentication, which makes it easier for remote attackers to bypass authentication via a timing side channel.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-23771">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>adfc420428eaadcaf201a76318bb66d8</td>
+       <td>CVE-2024-23770</td>
+       <td>2024-01-22 04:15:07 <img src="imgs/new.gif" /></td>
+       <td>darkhttpd through 1.15 allows local users to discover credentials (for --auth) by listing processes and their arguments.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-23770">详情</a></td>
+      </tr>
+
+      <tr>
        <td>30d02a30cfb98ff789a8e5b622caceac</td>
        <td>CVE-2024-23744</td>
        <td>2024-01-21 23:15:44 <img src="imgs/new.gif" /></td>
@@ -465,62 +521,6 @@
        <td>2024-01-20 21:15:43</td>
        <td>Code Injection in paddlepaddle/paddle</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-0521">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>e6c044e82d6c80d6e1ee0b9bd3b77260</td>
-       <td>CVE-2023-7063</td>
-       <td>2024-01-20 09:15:07</td>
-       <td>The WPForms Pro plugin for WordPress is vulnerable to Stored Cross-Site Scripting via form submission parameters in all versions up to, and including, 1.8.5.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-7063">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>d772c8fc41e1cd5d0d9b52b95df33a34</td>
-       <td>CVE-2024-0679</td>
-       <td>2024-01-20 06:15:44</td>
-       <td>The ColorMag theme for WordPress is vulnerable to unauthorized access due to a missing capability check on the plugin_action_callback() function in all versions up to, and including, 3.1.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to install and activate arbitrary plugins.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-0679">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>f59d685eaf4efab37c2f8e73e1cea673</td>
-       <td>CVE-2024-0623</td>
-       <td>2024-01-20 06:15:44</td>
-       <td>The VK Block Patterns plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.31.1.1. This is due to missing or incorrect nonce validation on the vbp_clear_patterns_cache() function. This makes it possible for unauthenticated attackers to clear the patterns cache via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-0623">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>9c15d8b9e961bff91ac9de4353e41ebb</td>
-       <td>CVE-2023-46447</td>
-       <td>2024-01-20 05:15:08</td>
-       <td>The POPS! Rebel application 5.0 for Android, in POPS! Rebel Bluetooth Glucose Monitoring System, sends unencrypted glucose measurements over BLE.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-46447">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>1c20fb409aa612887853fe2ac1030e04</td>
-       <td>CVE-2023-51925</td>
-       <td>2024-01-20 02:15:07</td>
-       <td>An arbitrary file upload vulnerability in the nccloud.web.arcp.taskmonitor.action.ArcpUploadAction.doAction() method of YonBIP v3_23.05 allows attackers to execute arbitrary code via uploading a crafted file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-51925">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>7d82956abe153384f993a06b8fe4f2d9</td>
-       <td>CVE-2023-51924</td>
-       <td>2024-01-20 02:15:07</td>
-       <td>An arbitrary file upload vulnerability in the uap.framework.rc.itf.IResourceManager interface of YonBIP v3_23.05 allows attackers to execute arbitrary code via uploading a crafted file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-51924">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>cdb9c5fdd64789e1f9c3b7df84f669b6</td>
-       <td>CVE-2023-51906</td>
-       <td>2024-01-20 02:15:07</td>
-       <td>An issue in yonyou YonBIP v3_23.05 allows a remote attacker to execute arbitrary code via a crafted script to the ServiceDispatcherServlet uap.framework.rc.itf.IResourceManager component.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-51906">详情</a></td>
       </tr>
 
      </tbody>
