@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2024-02-21 09:27:54 -->
+<!-- RELEASE TIME : 2024-02-21 18:30:51 -->
 <html lang="zh-cn">
 
  <head>
@@ -284,6 +284,86 @@
        <th width="5%">URL</th>
       </tr>
       <tr>
+       <td>f24d0b1e73b3b0edb14e596a1fd65c0a</td>
+       <td>CVE-2024-27215</td>
+       <td>2024-02-21 16:15:50 <img src="imgs/new.gif" /></td>
+       <td>ConnectWise ScreenConnnect before 23.9.8 allows authentication bypass via an alternate path or channel.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-27215">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>35ca16e1d732d84f01bc48aa8110a894</td>
+       <td>CVE-2024-22220</td>
+       <td>2024-02-21 16:15:50 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Terminalfour 7.4 through 7.4.0004 QP3 and 8 through 8.3.19, and Formbank through 2.1.10-FINAL. Unauthenticated Stored Cross-Site Scripting can occur, with resultant Admin Session Hijacking. The attack vectors are Form Builder and Form Preview.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-22220">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>89729faa0d4baa960a6a749eb919d388</td>
+       <td>CVE-2024-1709</td>
+       <td>2024-02-21 16:15:50 <img src="imgs/new.gif" /></td>
+       <td>ConnectWise ScreenConnect 23.9.7 and prior are affected by an Authentication Bypass Using an Alternate Path or Channel vulnerability, which may allow an attacker direct access to confidential information or critical systems.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-1709">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>0d30a4d6bf68b79f467e9045b1aedf8f</td>
+       <td>CVE-2024-1708</td>
+       <td>2024-02-21 16:15:50 <img src="imgs/new.gif" /></td>
+       <td>ConnectWise ScreenConnect 23.9.7 and prior are affected by path-traversal vulnerability, which may allow an attacker the ability to execute remote code or directly impact confidential data or critical systems.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-1708">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>3ef2900ad6ce169e4a65eeba4ca4fde7</td>
+       <td>CVE-2024-1701</td>
+       <td>2024-02-21 16:15:50 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability has been found in keerti1924 PHP-MYSQL-User-Login-System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /edit.php. The manipulation leads to improper access controls. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-254389 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-1701">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>a5c01cd56cfe0c032e4f528a7e036fae</td>
+       <td>CVE-2024-1700</td>
+       <td>2024-02-21 16:15:49 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as problematic, was found in keerti1924 PHP-MYSQL-User-Login-System 1.0. Affected is an unknown function of the file /signup.php. The manipulation of the argument username with the input <script>alert("xss")</script> leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-254388. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-1700">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>ac2f59e493dd2c3c572347e1563d9416</td>
+       <td>CVE-2024-1474</td>
+       <td>2024-02-21 16:15:49 <img src="imgs/new.gif" /></td>
+       <td>In WS_FTP Server versions before 8.8.5, reflected cross-site scripting issues have been identified on various user supplied inputs on the WS_FTP Server administrative interface.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-1474">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>bd5ba4a51cc0533c96a153673eb7c6ac</td>
+       <td>CVE-2023-49100</td>
+       <td>2024-02-21 16:15:49 <img src="imgs/new.gif" /></td>
+       <td>Trusted Firmware-A (TF-A) before 2.10 has a potential read out-of-bounds in the SDEI service. The input parameter passed in register x1 is not validated well enough in the function sdei_interrupt_bind. The parameter is passed to a call to plat_ic_get_interrupt_type. It can be any arbitrary value passing checks in the function plat_ic_is_sgi. A compromised Normal World (Linux kernel) can enable a root-privileged attacker to issue arbitrary SMC calls. Using this primitive, he can control the content of registers x0 through x6, which are used to send parameters to TF-A. Out-of-bounds addresses can be read in the context of TF-A (EL3). Because the read value is never returned to non-secure memory or in registers, no leak is possible. An attacker can still crash TF-A, however.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-49100">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>4a806761b3f4a2552b469b14e2cb11c6</td>
+       <td>CVE-2023-46241</td>
+       <td>2024-02-21 16:15:49 <img src="imgs/new.gif" /></td>
+       <td>`discourse-microsoft-auth` is a plugin that enables authentication via Microsoft. On sites with the `discourse-microsoft-auth` plugin enabled, an attack can potentially take control of a victim's Discourse account. Sites that have configured their application's account type to any options other than `Accounts in this organizational directory only (O365 only - Single tenant)` are vulnerable. This vulnerability has been patched in commit c40665f44509724b64938c85def9fb2e79f62ec8 of `discourse-microsoft-auth`. A `microsoft_auth:revoke` rake task has also been added which will deactivate and log out all users that have connected their accounts to Microsoft. User API keys as well as API keys created by those users will also be revoked. The rake task will also remove the connection records to Microsoft for those users. This will allow affected users to re-verify their account emails as well as reconnect their Discourse account to Microsoft for authentication. As a workaround, disable the `discourse-microsoft-auth` plugin by setting the `microsoft_auth_enabled` site setting to `false`. Run the `microsoft_auth:log_out_users` rake task to log out all users with associated Microsoft accounts.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-46241">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>69ec16805f2b4a76d9edfb73a16f42b4</td>
+       <td>CVE-2022-45179</td>
+       <td>2024-02-21 16:15:49 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in LIVEBOX Collaboration vDesk through v031. A basic XSS vulnerability exists under the /api/v1/vdeskintegration/todo/createorupdate endpoint via the title parameter and /dashboard/reminders. A remote user (authenticated to the product) can store arbitrary HTML code in the reminder section title in order to corrupt the web page (for example, by creating phishing sections to exfiltrate victims' credentials).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45179">详情</a></td>
+      </tr>
+
+      <tr>
        <td>5406867c009510f8d60ac78516fb9366</td>
        <td>CVE-2024-25366</td>
        <td>2024-02-20 16:15:10 <img src="imgs/new.gif" /></td>
@@ -441,86 +521,6 @@
        <td>2024-02-20 10:15:07 <img src="imgs/new.gif" /></td>
        <td>Exposure of Remote Code Execution in Apache Dolphinscheduler. This issue affects Apache DolphinScheduler: before 3.2.1. We recommend users to upgrade Apache DolphinScheduler to version 3.2.1, which fixes the issue.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-49109">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>0d66ae7ccc8dd80ebc22f0c3f6957e32</td>
-       <td>CVE-2022-45320</td>
-       <td>2024-02-20 05:15:07 <img src="imgs/new.gif" /></td>
-       <td>Liferay Portal before 7.4.3.16 and Liferay DXP before 7.2 fix pack 19, 7.3 before update 6, and 7.4 before update 16 allow remote authenticated users to become the owner of a wiki page by editing the wiki page.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-45320">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>4646471a0c45b25814600a90f8600c30</td>
-       <td>CVE-2024-1559</td>
-       <td>2024-02-20 04:15:07 <img src="imgs/new.gif" /></td>
-       <td>The Link Library plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'll_reciprocal' parameter in all versions up to, and including, 7.6 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-1559">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>a2f89850112a94f2a032c89752137e3a</td>
-       <td>CVE-2024-1510</td>
-       <td>2024-02-20 03:15:08 <img src="imgs/new.gif" /></td>
-       <td>The WP Shortcodes Plugin — Shortcodes Ultimate plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's su_tooltip shortcode in all versions up to, and including, 7.0.2 due to insufficient input sanitization and output escaping on user supplied attributes and user supplied tags. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-1510">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>e059e0cf26bb3ee1855885f1da552a78</td>
-       <td>CVE-2023-6764</td>
-       <td>2024-02-20 03:15:07 <img src="imgs/new.gif" /></td>
-       <td>A format string vulnerability in a function of the IPSec VPN feature in Zyxel ATP series firmware versions from 4.32 through 5.37 Patch 1, USG FLEX series firmware versions from 4.50 through 5.37 Patch 1, USG FLEX 50(W) series firmware versions from 4.16 through 5.37 Patch 1, and USG20(W)-VPN series firmware versions from 4.16 through 5.37 Patch 1 could allow an attacker to achieve unauthorized remote code execution by sending a sequence of specially crafted payloads containing an invalid pointer; however, such an attack would require detailed knowledge of an affected device’s memory layout and configuration.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-6764">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>410a4cdf2a2b270fda48938122ec5f2a</td>
-       <td>CVE-2024-22019</td>
-       <td>2024-02-20 02:15:50 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability in Node.js HTTP servers allows an attacker to send a specially crafted HTTP request with chunked encoding, leading to resource exhaustion and denial of service (DoS). The server reads an unbounded number of bytes from a single connection, exploiting the lack of limitations on chunk extension bytes. The issue can cause CPU and network bandwidth exhaustion, bypassing standard safeguards like timeouts and body size limits.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-22019">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>17905e065803d0bd1a441091a1ff6226</td>
-       <td>CVE-2024-21896</td>
-       <td>2024-02-20 02:15:50 <img src="imgs/new.gif" /></td>
-       <td>The permission model protects itself against path traversal attacks by calling path.resolve() on any paths given by the user. If the path is to be treated as a Buffer, the implementation uses Buffer.from() to obtain a Buffer from the result of path.resolve(). By monkey-patching Buffer internals, namely, Buffer.prototype.utf8Write, the application can modify the result of path.resolve(), which leads to a path traversal vulnerability. This vulnerability affects all users using the experimental permission model in Node.js 20 and Node.js 21. Please note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-21896">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>26cf2b8d93f0d2e231b88096da61bb07</td>
-       <td>CVE-2024-21892</td>
-       <td>2024-02-20 02:15:50 <img src="imgs/new.gif" /></td>
-       <td>On Linux, Node.js ignores certain environment variables if those may have been set by an unprivileged user while the process is running with elevated privileges with the only exception of CAP_NET_BIND_SERVICE. Due to a bug in the implementation of this exception, Node.js incorrectly applies this exception even when certain other capabilities have been set. This allows unprivileged users to inject code that inherits the process's elevated privileges.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-21892">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>49117bdf3e9e64afb34825bb65e341a2</td>
-       <td>CVE-2024-21891</td>
-       <td>2024-02-20 02:15:50 <img src="imgs/new.gif" /></td>
-       <td>Node.js depends on multiple built-in utility functions to normalize paths provided to node:fs functions, which can be overwitten with user-defined implementations leading to filesystem permission model bypass through path traversal attack. This vulnerability affects all users using the experimental permission model in Node.js 20 and Node.js 21. Please note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-21891">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>dc6862fc5bc61e848b6fe4fe1f708ad8</td>
-       <td>CVE-2024-21890</td>
-       <td>2024-02-20 02:15:50 <img src="imgs/new.gif" /></td>
-       <td>The Node.js Permission Model does not clarify in the documentation that wildcards should be only used as the last character of a file path. For example: ``` --allow-fs-read=/home/node/.ssh/*.pub ``` will ignore `pub` and give access to everything after `.ssh/`. This misleading documentation affects all users using the experimental permission model in Node.js 20 and Node.js 21. Please note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-21890">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>309008d8575ca9f2384d90f932d57f5b</td>
-       <td>CVE-2024-0715</td>
-       <td>2024-02-20 02:15:49 <img src="imgs/new.gif" /></td>
-       <td>Expression Language Injection vulnerability in Hitachi Global Link Manager on Windows allows Code Injection.This issue affects Hitachi Global Link Manager: before 8.8.7-03.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-0715">详情</a></td>
       </tr>
 
      </tbody>
