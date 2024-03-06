@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2024-03-05 23:25:33 -->
+<!-- RELEASE TIME : 2024-03-06 01:29:35 -->
 <html lang="zh-cn">
 
  <head>
@@ -30,7 +30,7 @@
       <tr>
        <td>5e103cbd4bae3244e692ba33c1d7fcf8</td>
        <td></td>
-       <td>2024-03-04 07:07:59 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 07:07:59</td>
        <td>安全事件周报 2024-02-26 第9周</td>
        <td><a target="_blank" href="https://cert.360.cn/warning/detail?id=65e5734bc09f255b91b17e42">详情</a></td>
       </tr>
@@ -284,9 +284,89 @@
        <th width="5%">URL</th>
       </tr>
       <tr>
+       <td>76fe749e528b0e0ba03347d2879ef0d0</td>
+       <td>CVE-2024-25858</td>
+       <td>2024-03-05 21:15:09 <img src="imgs/new.gif" /></td>
+       <td>In Foxit PDF Reader before 2024.1 and PDF Editor before 2024.1, code execution via JavaScript could occur because of an unoptimized prompt message for users to review parameters of commands.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-25858">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>c7582ee4f5d6421d0d4b5f101909241c</td>
+       <td>CVE-2024-2179</td>
+       <td>2024-03-05 21:15:09 <img src="imgs/new.gif" /></td>
+       <td>Concrete CMS version 9 before 9.2.7 is vulnerable to Stored XSS via the Name field of a Group type since there is insufficient validation of administrator provided data for that field. A rogue administrator could inject malicious code into the Name field which might be executed when users visit the affected page. The Concrete CMS security team gave this vulnerability a CVSS v3.1 score of 2.2 with a vector of AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N Concrete versions below 9 do not include group types so they are not affected by this vulnerability. Thanks Luca Fuda for reporting.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-2179">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>c01f995d91e3d4add2ffe5dcf5720d77</td>
+       <td>CVE-2024-25616</td>
+       <td>2024-03-05 21:15:08 <img src="imgs/new.gif" /></td>
+       <td>Aruba has identified certain configurations of ArubaOS that can lead to partial disclosure of sensitive information in the IKE_AUTH negotiation process. The scenarios in which disclosure of potentially sensitive information can occur are complex, and depend on factors beyond the control of attackers.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-25616">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>4c64d1c8ff764f6a383dc6c3838eecd1</td>
+       <td>CVE-2024-25615</td>
+       <td>2024-03-05 21:15:08 <img src="imgs/new.gif" /></td>
+       <td>An unauthenticated Denial-of-Service (DoS) vulnerability exists in the Spectrum service accessed via the PAPI protocol in ArubaOS 8.x. Successful exploitation of this vulnerability results in the ability to interrupt the normal operation of the affected service.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-25615">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>d2ba4c9f567c010245c39bd0260ab3e7</td>
+       <td>CVE-2024-25614</td>
+       <td>2024-03-05 21:15:08 <img src="imgs/new.gif" /></td>
+       <td>There is an arbitrary file deletion vulnerability in the CLI used by ArubaOS. Successful exploitation of this vulnerability results in the ability to delete arbitrary files on the underlying operating system, which could lead to denial-of-service conditions and impact the integrity of the controller.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-25614">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>e705e2061906416d27b57c3e4074b308</td>
+       <td>CVE-2024-25613</td>
+       <td>2024-03-05 21:15:08 <img src="imgs/new.gif" /></td>
+       <td>Authenticated command injection vulnerabilities exist in the ArubaOS command line interface. Successful exploitation of these vulnerabilities result in the ability to execute arbitrary commands as a privileged user on the underlying operating system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-25613">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>3f4e1a8c85044a2e281dcf0d05ecfd39</td>
+       <td>CVE-2024-25612</td>
+       <td>2024-03-05 21:15:08 <img src="imgs/new.gif" /></td>
+       <td>Authenticated command injection vulnerabilities exist in the ArubaOS command line interface. Successful exploitation of these vulnerabilities result in the ability to execute arbitrary commands as a privileged user on the underlying operating system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-25612">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>2446b3bb481e971a6e8caae83c710a33</td>
+       <td>CVE-2024-25611</td>
+       <td>2024-03-05 21:15:07 <img src="imgs/new.gif" /></td>
+       <td>Authenticated command injection vulnerabilities exist in the ArubaOS command line interface. Successful exploitation of these vulnerabilities result in the ability to execute arbitrary commands as a privileged user on the underlying operating system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-25611">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>f4da2c7f26d24bae12b910f0f5709b9f</td>
+       <td>CVE-2024-1356</td>
+       <td>2024-03-05 21:15:07 <img src="imgs/new.gif" /></td>
+       <td>Authenticated command injection vulnerabilities exist in the ArubaOS command line interface. Successful exploitation of these vulnerabilities result in the ability to execute arbitrary commands as a privileged user on the underlying operating system.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-1356">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>cfaced957e458a6bb6cf534426fd3853</td>
+       <td>CVE-2024-23296</td>
+       <td>2024-03-05 20:16:01 <img src="imgs/new.gif" /></td>
+       <td>A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 17.4 and iPadOS 17.4. An attacker with arbitrary kernel read and write capability may be able to bypass kernel memory protections. Apple is aware of a report that this issue may have been exploited.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-23296">详情</a></td>
+      </tr>
+
+      <tr>
        <td>1d25dc9028a2fb002cee371183e64d48</td>
        <td>CVE-2024-2168</td>
-       <td>2024-03-04 21:15:07 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 21:15:07</td>
        <td>A vulnerability was found in SourceCodester Online Tours & Travels Management System 1.0. It has been classified as critical. Affected is an unknown function of the file /admin/operations/expense_category.php of the component HTTP POST Request Handler. The manipulation of the argument status leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-255678 is the identifier assigned to this vulnerability.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-2168">详情</a></td>
       </tr>
@@ -294,7 +374,7 @@
       <tr>
        <td>d9562e267e1dc49a83468ecca80b53ab</td>
        <td>CVE-2024-1319</td>
-       <td>2024-03-04 21:15:07 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 21:15:07</td>
        <td>The Events Tickets Plus WordPress plugin before 5.9.1 does not prevent users with at least the contributor role from leaking the attendees list on any post type regardless of status. (e.g. draft, private, pending review, password-protected, and trashed posts).</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-1319">详情</a></td>
       </tr>
@@ -302,7 +382,7 @@
       <tr>
        <td>2c3d89d53a7c97a25463dccbc6237918</td>
        <td>CVE-2024-1316</td>
-       <td>2024-03-04 21:15:07 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 21:15:07</td>
        <td>The Event Tickets and Registration WordPress plugin before 5.8.1, Events Tickets Plus WordPress plugin before 5.9.1 does not prevent users with at least the contributor role from leaking the existence of certain events they shouldn't have access to. (e.g. draft, private, pending review, pw-protected, and trashed events).</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-1316">详情</a></td>
       </tr>
@@ -310,7 +390,7 @@
       <tr>
        <td>96e31c0c4bf945562ebf093e6dd9367a</td>
        <td>CVE-2024-27889</td>
-       <td>2024-03-04 20:15:50 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 20:15:50</td>
        <td>Multiple SQL Injection vulnerabilities exist in the reporting application of the Arista Edge Threat Management - Arista NG Firewall (NGFW). A user with advanced report application access rights can exploit the SQL injection, allowing them to execute commands on the underlying operating system with elevated privileges.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-27889">详情</a></td>
       </tr>
@@ -318,7 +398,7 @@
       <tr>
        <td>fec974cbd701fc29682a21f3f394364a</td>
        <td>CVE-2024-2048</td>
-       <td>2024-03-04 20:15:50 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 20:15:50</td>
        <td>Vault and Vault Enterprise (“Vault”) TLS certificate auth method did not correctly validate client certificates when configured with a non-CA certificate as trusted certificate. In this configuration, an attacker may be able to craft a malicious certificate that could be used to bypass authentication. Fixed in Vault 1.15.5 and 1.14.10.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-2048">详情</a></td>
       </tr>
@@ -326,7 +406,7 @@
       <tr>
        <td>97958b76da614589919e4983d43d023f</td>
        <td>CVE-2023-6068</td>
-       <td>2024-03-04 20:15:50 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 20:15:50</td>
        <td>On affected 7130 Series FPGA platforms running MOS and recent versions of the MultiAccess FPGA, application of ACL’s may result in incorrect operation of the configured ACL for a port resulting in some packets that should be denied being permitted and some</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-6068">详情</a></td>
       </tr>
@@ -334,7 +414,7 @@
       <tr>
        <td>46602308321d0f2eb1b6be8fa8872cfa</td>
        <td>CVE-2023-32331</td>
-       <td>2024-03-04 19:15:18 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 19:15:18</td>
        <td>IBM Connect:Express for UNIX 1.5.0 is vulnerable to a buffer overflow that could allow a remote attacker to cause a denial of service through its browser UI. IBM X-Force ID: 254979.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-32331">详情</a></td>
       </tr>
@@ -342,7 +422,7 @@
       <tr>
        <td>e90644165707cc3fbe045b23afb147cb</td>
        <td>CVE-2021-47108</td>
-       <td>2024-03-04 19:15:18 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 19:15:18</td>
        <td>In the Linux kernel, the following vulnerability has been resolved: drm/mediatek: hdmi: Perform NULL pointer check for mtk_hdmi_conf In commit 41ca9caaae0b ("drm/mediatek: hdmi: Add check for CEA modes only") a check for CEA modes was added to function mtk_hdmi_bridge_mode_valid() in order to address possible issues on MT8167; moreover, with commit c91026a938c2 ("drm/mediatek: hdmi: Add optional limit on maximal HDMI mode clock") another similar check was introduced. Unfortunately though, at the time of writing, MT8173 does not provide any mtk_hdmi_conf structure and this is crashing the kernel with NULL pointer upon entering mtk_hdmi_bridge_mode_valid(), which happens as soon as a HDMI cable gets plugged in. To fix this regression, add a NULL pointer check for hdmi->conf in the said function, restoring HDMI functionality and avoiding NULL pointer kernel panics.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-47108">详情</a></td>
       </tr>
@@ -350,7 +430,7 @@
       <tr>
        <td>7c0eaf649b34f374361868accc49200e</td>
        <td>CVE-2021-47107</td>
-       <td>2024-03-04 19:15:18 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 19:15:18</td>
        <td>In the Linux kernel, the following vulnerability has been resolved: NFSD: Fix READDIR buffer overflow If a client sends a READDIR count argument that is too small (say, zero), then the buffer size calculation in the new init_dirlist helper functions results in an underflow, allowing the XDR stream functions to write beyond the actual buffer. This calculation has always been suspect. NFSD has never sanity- checked the READDIR count argument, but the old entry encoders managed the problem correctly. With the commits below, entry encoding changed, exposing the underflow to the pointer arithmetic in xdr_reserve_space(). Modern NFS clients attempt to retrieve as much data as possible for each READDIR request. Also, we have no unit tests that exercise the behavior of READDIR at the lower bound of @count values. Thus this case was missed during testing.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-47107">详情</a></td>
       </tr>
@@ -358,7 +438,7 @@
       <tr>
        <td>a5b9327aee662195d51eb1fcdc5029ab</td>
        <td>CVE-2021-47106</td>
-       <td>2024-03-04 19:15:18 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 19:15:18</td>
        <td>In the Linux kernel, the following vulnerability has been resolved: netfilter: nf_tables: fix use-after-free in nft_set_catchall_destroy() We need to use list_for_each_entry_safe() iterator because we can not access @catchall after kfree_rcu() call. syzbot reported: BUG: KASAN: use-after-free in nft_set_catchall_destroy net/netfilter/nf_tables_api.c:4486 [inline] BUG: KASAN: use-after-free in nft_set_destroy net/netfilter/nf_tables_api.c:4504 [inline] BUG: KASAN: use-after-free in nft_set_destroy+0x3fd/0x4f0 net/netfilter/nf_tables_api.c:4493 Read of size 8 at addr ffff8880716e5b80 by task syz-executor.3/8871 CPU: 1 PID: 8871 Comm: syz-executor.3 Not tainted 5.16.0-rc5-syzkaller #0 Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 01/01/2011 Call Trace: <TASK> __dump_stack lib/dump_stack.c:88 [inline] dump_stack_lvl+0xcd/0x134 lib/dump_stack.c:106 print_address_description.constprop.0.cold+0x8d/0x2ed mm/kasan/report.c:247 __kasan_report mm/kasan/report.c:433 [inline] kasan_report.cold+0x83/0xdf mm/kasan/report.c:450 nft_set_catchall_destroy net/netfilter/nf_tables_api.c:4486 [inline] nft_set_destroy net/netfilter/nf_tables_api.c:4504 [inline] nft_set_destroy+0x3fd/0x4f0 net/netfilter/nf_tables_api.c:4493 __nft_release_table+0x79f/0xcd0 net/netfilter/nf_tables_api.c:9626 nft_rcv_nl_event+0x4f8/0x670 net/netfilter/nf_tables_api.c:9688 notifier_call_chain+0xb5/0x200 kernel/notifier.c:83 blocking_notifier_call_chain kernel/notifier.c:318 [inline] blocking_notifier_call_chain+0x67/0x90 kernel/notifier.c:306 netlink_release+0xcb6/0x1dd0 net/netlink/af_netlink.c:788 __sock_release+0xcd/0x280 net/socket.c:649 sock_close+0x18/0x20 net/socket.c:1314 __fput+0x286/0x9f0 fs/file_table.c:280 task_work_run+0xdd/0x1a0 kernel/task_work.c:164 tracehook_notify_resume include/linux/tracehook.h:189 [inline] exit_to_user_mode_loop kernel/entry/common.c:175 [inline] exit_to_user_mode_prepare+0x27e/0x290 kernel/entry/common.c:207 __syscall_exit_to_user_mode_work kernel/entry/common.c:289 [inline] syscall_exit_to_user_mode+0x19/0x60 kernel/entry/common.c:300 do_syscall_64+0x42/0xb0 arch/x86/entry/common.c:86 entry_SYSCALL_64_after_hwframe+0x44/0xae RIP: 0033:0x7f75fbf28adb Code: 0f 05 48 3d 00 f0 ff ff 77 45 c3 0f 1f 40 00 48 83 ec 18 89 7c 24 0c e8 63 fc ff ff 8b 7c 24 0c 41 89 c0 b8 03 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 35 44 89 c7 89 44 24 0c e8 a1 fc ff ff 8b 44 RSP: 002b:00007ffd8da7ec10 EFLAGS: 00000293 ORIG_RAX: 0000000000000003 RAX: 0000000000000000 RBX: 0000000000000004 RCX: 00007f75fbf28adb RDX: 00007f75fc08e828 RSI: ffffffffffffffff RDI: 0000000000000003 RBP: 00007f75fc08a960 R08: 0000000000000000 R09: 00007f75fc08e830 R10: 00007ffd8da7ed10 R11: 0000000000000293 R12: 00000000002067c3 R13: 00007ffd8da7ed10 R14: 00007f75fc088f60 R15: 0000000000000032 </TASK> Allocated by task 8886: kasan_save_stack+0x1e/0x50 mm/kasan/common.c:38 kasan_set_track mm/kasan/common.c:46 [inline] set_alloc_info mm/kasan/common.c:434 [inline] ____kasan_kmalloc mm/kasan/common.c:513 [inline] ____kasan_kmalloc mm/kasan/common.c:472 [inline] __kasan_kmalloc+0xa6/0xd0 mm/kasan/common.c:522 kasan_kmalloc include/linux/kasan.h:269 [inline] kmem_cache_alloc_trace+0x1ea/0x4a0 mm/slab.c:3575 kmalloc include/linux/slab.h:590 [inline] nft_setelem_catchall_insert net/netfilter/nf_tables_api.c:5544 [inline] nft_setelem_insert net/netfilter/nf_tables_api.c:5562 [inline] nft_add_set_elem+0x232e/0x2f40 net/netfilter/nf_tables_api.c:5936 nf_tables_newsetelem+0x6ff/0xbb0 net/netfilter/nf_tables_api.c:6032 nfnetlink_rcv_batch+0x1710/0x25f0 net/netfilter/nfnetlink.c:513 nfnetlink_rcv_skb_batch net/netfilter/nfnetlink.c:634 [inline] nfnetlink_rcv+0x3af/0x420 net/netfilter/nfnetlink.c:652 netlink_unicast_kernel net/netlink/af_netlink.c:1319 [inline] netlink_unicast+0x533/0x7d0 net/netlink/af_netlink.c:1345 netlink_sendmsg+0x904/0xdf0 net/netlink/af_netlink.c:1921 sock_sendmsg_nosec net/ ---truncated---</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-47106">详情</a></td>
       </tr>
@@ -441,86 +521,6 @@
        <td>2024-03-03 15:15:07</td>
        <td>A vulnerability was found in SourceCodester Online Mobile Management Store 1.0. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /?p=products. The manipulation of the argument search leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-255499.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-2146">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>898a3ce88e362708bf893ef01a720b9c</td>
-       <td>CVE-2024-0765</td>
-       <td>2024-03-03 15:15:07</td>
-       <td>As a default user on a multi-user instance of AnythingLLM, you could execute a call to the `/export-data` endpoint of the system and then unzip and read that export that would enable you do exfiltrate data of the system at that save state. This would require the attacked to be granted explicit access to the system, but they can do this at any role. Additionally, post-download, the data is deleted so no evidence would exist that the exfiltration occured.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-0765">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>9a90584f2f7a3c4c28c4d558263a6074</td>
-       <td>CVE-2024-2145</td>
-       <td>2024-03-03 14:15:52</td>
-       <td>A vulnerability was found in SourceCodester Online Mobile Management Store 1.0. It has been classified as problematic. Affected is an unknown function of the file /endpoint/update-tracker.php. The manipulation of the argument firstname leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-255498 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-2145">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>731612b4a1d978bd48b8a9b718db2d5c</td>
-       <td>CVE-2024-26621</td>
-       <td>2024-03-02 22:15:50</td>
-       <td>In the Linux kernel, the following vulnerability has been resolved: mm: huge_memory: don't force huge page alignment on 32 bit commit efa7df3e3bb5 ("mm: align larger anonymous mappings on THP boundaries") caused two issues [1] [2] reported on 32 bit system or compat userspace. It doesn't make too much sense to force huge page alignment on 32 bit system due to the constrained virtual address space. [1] https://lore.kernel.org/linux-mm/d0a136a0-4a31-46bc-adf4-2db109a61672@kernel.org/ [2] https://lore.kernel.org/linux-mm/CAJuCfpHXLdQy1a2B6xN2d7quTYwg2OoZseYPZTRpU0eHHKD-sQ@mail.gmail.com/</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-26621">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>b0f73b335f6384968ae083435c03d84a</td>
-       <td>CVE-2024-25865</td>
-       <td>2024-03-02 22:15:50</td>
-       <td>Cross Site Scripting (XSS) vulnerability in hexo-theme-anzhiyu v1.6.12, allows remote attackers to execute arbitrary code via the algolia search function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-25865">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>543df4fe2599a18d863fca60cbbd3a66</td>
-       <td>CVE-2024-0968</td>
-       <td>2024-03-02 22:15:50</td>
-       <td>Cross-site Scripting (XSS) - DOM in GitHub repository langchain-ai/chat-langchain prior to 0.0.0.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-0968">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>c080c2c9a647dae67836b65c0f99c7f1</td>
-       <td>CVE-2024-0795</td>
-       <td>2024-03-02 22:15:49</td>
-       <td>If an attacked was given access to an instance with the admin or manager role there is no backend authentication that would prevent the attacked from creating a new user with an `admin` role and then be able to use this new account to have elevated privileges on the instance</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-0795">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>92edcd3329479dc6e46c7e48cfb495c5</td>
-       <td>CVE-2023-52582</td>
-       <td>2024-03-02 22:15:49</td>
-       <td>In the Linux kernel, the following vulnerability has been resolved: netfs: Only call folio_start_fscache() one time for each folio If a network filesystem using netfs implements a clamp_length() function, it can set subrequest lengths smaller than a page size. When we loop through the folios in netfs_rreq_unlock_folios() to set any folios to be written back, we need to make sure we only call folio_start_fscache() once for each folio. Otherwise, this simple testcase: mount -o fsc,rsize=1024,wsize=1024 127.0.0.1:/export /mnt/nfs dd if=/dev/zero of=/mnt/nfs/file.bin bs=4096 count=1 1+0 records in 1+0 records out 4096 bytes (4.1 kB, 4.0 KiB) copied, 0.0126359 s, 324 kB/s echo 3 > /proc/sys/vm/drop_caches cat /mnt/nfs/file.bin > /dev/null will trigger an oops similar to the following: page dumped because: VM_BUG_ON_FOLIO(folio_test_private_2(folio)) ------------[ cut here ]------------ kernel BUG at include/linux/netfs.h:44! ... CPU: 5 PID: 134 Comm: kworker/u16:5 Kdump: loaded Not tainted 6.4.0-rc5 ... RIP: 0010:netfs_rreq_unlock_folios+0x68e/0x730 [netfs] ... Call Trace: netfs_rreq_assess+0x497/0x660 [netfs] netfs_subreq_terminated+0x32b/0x610 [netfs] nfs_netfs_read_completion+0x14e/0x1a0 [nfs] nfs_read_completion+0x2f9/0x330 [nfs] rpc_free_task+0x72/0xa0 [sunrpc] rpc_async_release+0x46/0x70 [sunrpc] process_one_work+0x3bd/0x710 worker_thread+0x89/0x610 kthread+0x181/0x1c0 ret_from_fork+0x29/0x50</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-52582">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>bbcffe3daa4204c41f3e0d2aec790700</td>
-       <td>CVE-2023-52581</td>
-       <td>2024-03-02 22:15:49</td>
-       <td>In the Linux kernel, the following vulnerability has been resolved: netfilter: nf_tables: fix memleak when more than 255 elements expired When more than 255 elements expired we're supposed to switch to a new gc container structure. This never happens: u8 type will wrap before reaching the boundary and nft_trans_gc_space() always returns true. This means we recycle the initial gc container structure and lose track of the elements that came before. While at it, don't deref 'gc' after we've passed it to call_rcu.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-52581">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>a1a7b8f9ea2ce14375a6716d7dc8ab67</td>
-       <td>CVE-2023-52580</td>
-       <td>2024-03-02 22:15:49</td>
-       <td>In the Linux kernel, the following vulnerability has been resolved: net/core: Fix ETH_P_1588 flow dissector When a PTP ethernet raw frame with a size of more than 256 bytes followed by a 0xff pattern is sent to __skb_flow_dissect, nhoff value calculation is wrong. For example: hdr->message_length takes the wrong value (0xffff) and it does not replicate real header length. In this case, 'nhoff' value was overridden and the PTP header was badly dissected. This leads to a kernel crash. net/core: flow_dissector net/core flow dissector nhoff = 0x0000000e net/core flow dissector hdr->message_length = 0x0000ffff net/core flow dissector nhoff = 0x0001000d (u16 overflow) ... skb linear: 00000000: 00 a0 c9 00 00 00 00 a0 c9 00 00 00 88 skb frag: 00000000: f7 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff Using the size of the ptp_header struct will allow the corrected calculation of the nhoff value. net/core flow dissector nhoff = 0x0000000e net/core flow dissector nhoff = 0x00000030 (sizeof ptp_header) ... skb linear: 00000000: 00 a0 c9 00 00 00 00 a0 c9 00 00 00 88 f7 ff ff skb linear: 00000010: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff skb linear: 00000020: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff skb frag: 00000000: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff Kernel trace: [ 74.984279] ------------[ cut here ]------------ [ 74.989471] kernel BUG at include/linux/skbuff.h:2440! [ 74.995237] invalid opcode: 0000 [#1] PREEMPT SMP NOPTI [ 75.001098] CPU: 4 PID: 0 Comm: swapper/4 Tainted: G U 5.15.85-intel-ese-standard-lts #1 [ 75.011629] Hardware name: Intel Corporation A-Island (CPU:AlderLake)/A-Island (ID:06), BIOS SB_ADLP.01.01.00.01.03.008.D-6A9D9E73-dirty Mar 30 2023 [ 75.026507] RIP: 0010:eth_type_trans+0xd0/0x130 [ 75.031594] Code: 03 88 47 78 eb c7 8b 47 68 2b 47 6c 48 8b 97 c0 00 00 00 83 f8 01 7e 1b 48 85 d2 74 06 66 83 3a ff 74 09 b8 00 04 00 00 eb ab <0f> 0b b8 00 01 00 00 eb a2 48 85 ff 74 eb 48 8d 54 24 06 31 f6 b9 [ 75.052612] RSP: 0018:ffff9948c0228de0 EFLAGS: 00010297 [ 75.058473] RAX: 00000000000003f2 RBX: ffff8e47047dc300 RCX: 0000000000001003 [ 75.066462] RDX: ffff8e4e8c9ea040 RSI: ffff8e4704e0a000 RDI: ffff8e47047dc300 [ 75.074458] RBP: ffff8e4704e2acc0 R08: 00000000000003f3 R09: 0000000000000800 [ 75.082466] R10: 000000000000000d R11: ffff9948c0228dec R12: ffff8e4715e4e010 [ 75.090461] R13: ffff9948c0545018 R14: 0000000000000001 R15: 0000000000000800 [ 75.098464] FS: 0000000000000000(0000) GS:ffff8e4e8fb00000(0000) knlGS:0000000000000000 [ 75.107530] CS: 0010 DS: 0000 ES: 0000 CR0: 0000000080050033 [ 75.113982] CR2: 00007f5eb35934a0 CR3: 0000000150e0a002 CR4: 0000000000770ee0 [ 75.121980] PKRU: 55555554 [ 75.125035] Call Trace: [ 75.127792] <IRQ> [ 75.130063] ? eth_get_headlen+0xa4/0xc0 [ 75.134472] igc_process_skb_fields+0xcd/0x150 [ 75.139461] igc_poll+0xc80/0x17b0 [ 75.143272] __napi_poll+0x27/0x170 [ 75.147192] net_rx_action+0x234/0x280 [ 75.151409] __do_softirq+0xef/0x2f4 [ 75.155424] irq_exit_rcu+0xc7/0x110 [ 75.159432] common_interrupt+0xb8/0xd0 [ 75.163748] </IRQ> [ 75.166112] <TASK> [ 75.168473] asm_common_interrupt+0x22/0x40 [ 75.173175] RIP: 0010:cpuidle_enter_state+0xe2/0x350 [ 75.178749] Code: 85 c0 0f 8f 04 02 00 00 31 ff e8 39 6c 67 ff 45 84 ff 74 12 9c 58 f6 c4 02 0f 85 50 02 00 00 31 ff e8 52 b0 6d ff fb 45 85 f6 <0f> 88 b1 00 00 00 49 63 ce 4c 2b 2c 24 48 89 c8 48 6b d1 68 48 c1 [ 75.199757] RSP: 0018:ffff9948c013bea8 EFLAGS: 00000202 [ 75.205614] RAX: ffff8e4e8fb00000 RBX: ffffb948bfd23900 RCX: 000000000000001f [ 75.213619] RDX: 0000000000000004 RSI: ffffffff94206161 RDI: ffffffff94212e20 [ 75.221620] RBP: 0000000000000004 R08: 000000117568973a R09: 0000000000000001 [ 75.229622] R10: 000000000000afc8 R11: ffff8e4e8fb29ce4 R12: ffffffff945ae980 [ 75.237628] R13: 000000117568973a R14: 0000000000000004 R15: 0000000000000000 [ 75.245635] ? ---truncated---</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-52580">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>66f53e072784e023142b9a2b1ab68788</td>
-       <td>CVE-2023-52579</td>
-       <td>2024-03-02 22:15:49</td>
-       <td>In the Linux kernel, the following vulnerability has been resolved: ipv4: fix null-deref in ipv4_link_failure Currently, we assume the skb is associated with a device before calling __ip_options_compile, which is not always the case if it is re-routed by ipvs. When skb->dev is NULL, dev_net(skb->dev) will become null-dereference. This patch adds a check for the edge case and switch to use the net_device from the rtable when skb->dev is NULL.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-52579">详情</a></td>
       </tr>
 
      </tbody>
@@ -2094,7 +2094,7 @@
       <tr>
        <td>10debfb0324d6cb28ba4a12cddb0ac43</td>
        <td>CVE-2023-6271</td>
-       <td>2024-03-04 12:03:01 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 12:03:01</td>
        <td>WordPress Backup Migration WordPress plugin信息泄露漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91067">详情</a></td>
       </tr>
@@ -2102,7 +2102,7 @@
       <tr>
        <td>1cef0d48341152875afec7e57a14d6a0</td>
        <td>CVE-2023-3893</td>
-       <td>2024-03-04 12:03:01 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 12:03:01</td>
        <td>kubernetes-csi-proxy输入验证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91066">详情</a></td>
       </tr>
@@ -2110,7 +2110,7 @@
       <tr>
        <td>c20e2ce331bfe0642d662fb2182b265e</td>
        <td>CVE-2024-21732</td>
-       <td>2024-03-04 12:03:01 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 12:03:01</td>
        <td>sunkaifei FlyCms跨站脚本漏洞 </td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91065">详情</a></td>
       </tr>
@@ -2118,7 +2118,7 @@
       <tr>
        <td>567909e0ad9bdea4c4564feccd7ed70e</td>
        <td>CVE-2024-21732</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>sunkaifei FlyCms跨站脚本攻击漏洞 </td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91065">详情</a></td>
       </tr>
@@ -2126,7 +2126,7 @@
       <tr>
        <td>82051d0af7043664652692ec74d40ccb</td>
        <td>CVE-2023-41725</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>Ivanti Avalanche不受限文件上传漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91064">详情</a></td>
       </tr>
@@ -2134,7 +2134,7 @@
       <tr>
        <td>0ebe0f9a67013b24ef3e27cc7ed2e92d</td>
        <td>CVE-2023-46963</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>Yunfan Learning Examination System身份认证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91063">详情</a></td>
       </tr>
@@ -2142,7 +2142,7 @@
       <tr>
        <td>76bcb5c399eba3edba106dad1d5ed539</td>
        <td>CVE-2022-43554</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>Ivanti Avalanche身份认证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91062">详情</a></td>
       </tr>
@@ -2150,7 +2150,7 @@
       <tr>
        <td>dc07b1278b2829aecdea9dbded5356cc</td>
        <td>CVE-2023-39301</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>QNAP多款产品服务器端请求伪造漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91061">详情</a></td>
       </tr>
@@ -2158,7 +2158,7 @@
       <tr>
        <td>3e2155885e86c80c2e3aa1d85041d5a8</td>
        <td>CVE-2023-23369</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>QNAP多款产品操作系统命令注入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91060">详情</a></td>
       </tr>
@@ -2166,7 +2166,7 @@
       <tr>
        <td>d3937657882915a7a3421b5e27b2a13b</td>
        <td>CVE-2023-23368</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>QNAP多款产品操作系统命令注入漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91059">详情</a></td>
       </tr>
@@ -2174,7 +2174,7 @@
       <tr>
        <td>9d25ad403c230cd40d17293c9521b078</td>
        <td>CVE-2022-44569</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>Ivanti Automation身份认证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91058">详情</a></td>
       </tr>
@@ -2182,7 +2182,7 @@
       <tr>
        <td>fb0dd5a65df84d25ef04a7686462215a</td>
        <td>CVE-2022-43555</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>Ivanti Avalanche身份认证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91057">详情</a></td>
       </tr>
@@ -2190,7 +2190,7 @@
       <tr>
        <td>9ed94232c52c7bb5906e9437b3571160</td>
        <td>CVE-2023-46381</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>LOYTEC多款产品身份认证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91056">详情</a></td>
       </tr>
@@ -2198,7 +2198,7 @@
       <tr>
        <td>864e067d44f1b5fbab642368f2306c28</td>
        <td>CVE-2023-45163</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>1E Platform输入验证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91055">详情</a></td>
       </tr>
@@ -2206,7 +2206,7 @@
       <tr>
        <td>ecd56f02adfac9d5bbc4aea24ba935fa</td>
        <td>CVE-2023-45161</td>
-       <td>2024-03-04 10:21:40 <img src="imgs/new.gif" /></td>
+       <td>2024-03-04 10:21:40</td>
        <td>1E Platform输入验证错误漏洞</td>
        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/91054">详情</a></td>
       </tr>
